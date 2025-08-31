@@ -2,7 +2,6 @@
   width: 400px;
   height: 150px;
   padding: 10px;
-  margin-bottom: 20px;
   cursor: pointer;
   background-color: var(--main-color-grey);
   transition: all 0.3s ease-in-out;
@@ -59,7 +58,7 @@
 
 .card:hover {
   animation: slide 0.2s linear both;
-  background-color: #242424;
+  background-color: var(--dark-color-grey);
   box-shadow: 5.2px 10.4px 10.4px hsl(0deg 0% 0% / 0.34);
   transform: translateZ(0);
 }
