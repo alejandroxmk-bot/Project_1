@@ -1,0 +1,29 @@
+div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px 16px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 480px) {
+  div {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+  div {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 601px) {
+  div {
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* o el número de columnas que prefieras */
+  }
+}

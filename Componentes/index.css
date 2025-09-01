@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+
+:root {
+  --main-color-blue: #0049b1;
+  --dark-color-grey: #242424;
+  --main-color-grey: #272727;
+  --sec-color-grey: #3f3f3f;
+  --main-font-family: "Sen", sans-serif;
+}
+
 *,
 ::after,
 ::before {
@@ -8,28 +17,4 @@
   border: none;
   text-decoration: none;
   text-align: start;
-}
-
-:root {
-  --main-color-blue: #0049b1;
-  --dark-color-grey:#242424;
-  --main-color-grey: #272727;
-  --sec-color-grey: #3f3f3f;
-  --main-font-family: "Sen", sans-serif;
-}
-
-body {
-  background-color: #c2c2c2;
-  display: flex;
-  min-height: 100vh;
-  width: 100vw;
-}
-main {
-  background-color: red;
-}
-
-article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
